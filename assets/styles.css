@@ -181,6 +181,10 @@ h2 {
 .paper-info p { margin: 0 0 5px; }
 .paper-info .venue { margin-bottom: 4px; }
 .authors { font-size: 14px; }
+.authors sup {
+  margin-left: 1px;
+  font-size: 0.72em;
+}
 .venue { color: var(--venue); }
 .paper-links { font-size: 14px; }
 
