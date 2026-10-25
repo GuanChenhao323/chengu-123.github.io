@@ -132,7 +132,7 @@ h2 {
   margin: 0 0 30px;
 }
 
-.paper-image img,
+.paper-image,
 .paper-media {
   display: block;
   width: 215px;
@@ -140,6 +140,7 @@ h2 {
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 2px;
+  overflow: hidden;
 }
 
 .paper-image img,
@@ -211,7 +212,7 @@ footer {
   .profile-photo img { width: 150px; height: 180px; }
   h1 { margin-top: 0; font-size: 32px; }
   .publication { grid-template-columns: 1fr; gap: 13px; }
-  .paper-image img,
+  .paper-image,
   .paper-media { width: min(100%, 320px); height: auto; aspect-ratio: 16 / 10; }
   .video-placeholder { aspect-ratio: 16 / 9; }
 }
